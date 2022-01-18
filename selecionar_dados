@@ -1,0 +1,8 @@
+/****** Script do comando SelectTopNRows de SSMS  ******/
+SELECT TOP (1000) [CODIGO DO PRODUTO]
+      ,[NOME DO PRODUTO]
+      ,[EMBALAGEM]
+      ,[TAMANHO]
+      ,[SABOR]
+      ,[PREÇO DE LISTA]
+  FROM [SUCOS_VENDAS_01].[dbo].[TABELA DE PRODUTOS]
